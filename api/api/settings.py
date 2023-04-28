@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'repetory.apps.RepetoryConfig'
+    'repetory.apps.RepetoryConfig',
+    'login.apps.LoginConfig'
 ]
 
 MIDDLEWARE = [
