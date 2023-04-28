@@ -4,7 +4,7 @@ from login.serializers import UserSerializerList
 from repetory.models import Repertory
 
 class RepertorySerializer(serializers.ModelSerializer):
-    who_added = serializers.UserSerializerList()
+    who_added = UserSerializerList()
     class Meta:
         model = Repertory
         fields = [
